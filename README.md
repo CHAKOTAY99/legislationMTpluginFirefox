@@ -1,0 +1,1 @@
+https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/
