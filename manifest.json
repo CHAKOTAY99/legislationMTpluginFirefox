@@ -3,14 +3,20 @@
   "name": "LegislationMT PDF Helper",
   "description": "Open Legislation.mt PDFs in new window via the extension button or ALT+P.",
   "version": "1.0.0",
+  "browser_specific_settings": {
+	"gecko": {
+		"id": "dbe93f08-4ecf-4fb4-b713-026@e29b6d5d"
+		}
+	},
   "action": {
-    "default_icon": "images/gavel.png"
+    "default_icon": "images/gavel&print_64x64.png"
   },
   "icons": {
-    "16": "images/gavel.png",
-    "32": "images/gavel.png",
-    "48": "images/gavel.png",
-    "128": "images/gavel.png"
+    "16": "images/gavel&print_16x16.png",
+    "32": "images/gavel&print_32x32.png",
+    "48": "images/gavel&print_48x48.png",
+    "64": "images/gavel&print_64x64.png",
+    "128": "images/gavel&print_128x128.png"
   },
   "background" : {
     "scripts": ["scripts/background.js"],
